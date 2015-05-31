@@ -17,3 +17,7 @@ If you want some help regarding setting up an Arduino on a breadboard, read the 
 
 ##Compatibility
 The code provided here is compatible with **ATmega-8L 8PU** running a `12Mhz` clock. Should be fine with higher MCs too. Compiled and running under **Arduino v1.0.5**.
+
+##Configuration
+The `config` folder contains the boards.txt file that needs to be patched to program the 
+AVR on the breadboard. Feel free to tinker with the settings to suit your configuration. The programmer I used was based on the [USBasp](http://www.fischl.de/usbasp/).
